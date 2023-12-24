@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  }
+  
+  .app {
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    display: grid;
+    place-items: center;
+  }
+  
+  .wrapper {
+    filter: drop-shadow(1.7rem 1.7rem 0.6rem rgba(31, 17, 6, 0.768));
+    width: 50%;
+    background-color: #b8cad4;
+    padding: 3rem;
+    border-radius: 0.5rem;
+  }
